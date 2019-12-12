@@ -1,4 +1,4 @@
-@import url(fontawesome-all.min.css);
+@import url(fontawesome-brand.min.css);
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -732,8 +732,8 @@ input, select, textarea {
 				text-rendering: auto;
 				line-height: 1;
 				text-transform: none !important;
-				font-family: 'Font Awesome 5 Free';
-				font-weight: 900;
+				font-family: 'Font Awesome 5 Brands';
+				font-weight: 400;
 			}
 
 			input[type="checkbox"] + label:before,
@@ -842,7 +842,7 @@ input, select, textarea {
 			text-rendering: auto;
 			line-height: 1;
 			text-transform: none !important;
-			font-family: 'Font Awesome 5 Free';
+			font-family: 'Font Awesome 5 Brands';
 			font-weight: 400;
 		}
 
@@ -854,12 +854,9 @@ input, select, textarea {
 			line-height: inherit;
 		}
 
-		.icon.solid:before {
-			font-weight: 900;
-		}
-
 		.icon.brands:before {
 			font-family: 'Font Awesome 5 Brands';
+			font-weight: 400;
 		}
 
 /* Image */
